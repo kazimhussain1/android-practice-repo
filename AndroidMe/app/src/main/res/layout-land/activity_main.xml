@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerLandscape"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    >
+
+    <fragment
+        android:name="com.example.androidme.MasterListFragment"
+        android:id="@+id/masterListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></fragment>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider"
+        />
+    <LinearLayout
+        android:id="@+id/android_me_linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:weightSum="3"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/headContainer"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/torsoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/legsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"></FrameLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

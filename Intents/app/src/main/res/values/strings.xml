@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="first_activity">First Activity</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="return_activity">Return Activity</string>
+
+    <string-array name="list_items">
+        <item>Bunny</item>
+        <item>Cat</item>
+        <item>Dog</item>
+        <item>Hamster</item>
+        <item>Chicken</item>
+    </string-array>
+</resources>

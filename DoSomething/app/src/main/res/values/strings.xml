@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Do Something</string>
+
+    <string-array name="actions">
+        <item>Make a Selection</item>
+        <item>Call Phone</item>
+        <item>Send a Text</item>
+        <item>Open Camera</item>
+        <item>Get Approx. Location</item>
+        <item>Get Exact Location</item>
+        <item>Get Location Updates</item>
+        <item>Get Full Address</item>
+    </string-array>
+</resources>

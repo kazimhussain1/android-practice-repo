@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adoption</string>
+    <string name="cats">Cats</string>
+    <string name="bunnies">Bunnies</string>
+    <string name="title_activity_bunny_view">Bunnies</string>
+    <string name="next">Next</string>
+</resources>
